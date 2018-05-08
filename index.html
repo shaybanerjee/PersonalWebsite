@@ -31,9 +31,11 @@
 
     <style> 
             .main_img {
-                height: 250px;
-                border-radius: 100px;
-                border: 5px solid #ffffff;
+                height: 230px;
+                margin-top: -40px;
+                margin-bottom: 40px;
+                border-radius: 300px;
+                border: 5px solid #2C3E50;
             }
             #framebox {
                margin-left: -180px;
@@ -61,9 +63,22 @@
                 margin-right: 20px;
 
             }
+
+            .darken
+            {
+                color: #333333;
+                border-color: #333333;
+            }
+
             .mainpara {
                 margin-top: 20px;
             }
+
+            .name
+            {
+                color: #333333;
+            }
+
             .secondpara {
                 text-align: justify;
                 width: 134%;
@@ -79,10 +94,38 @@
             .move {
                 margin-left: -0.2%;
             }
-            header {background-color: white;
-            		background-image: url("img/img.png");}
-            #about {background-color: white;
-            		background-image: url("img/img.png");}
+            .skills
+            {
+                color: #333333;
+            }
+            .name
+            {
+                font-family: cursive;
+            }
+            .navbar-brand
+            {
+               background-color: #333333;
+            }
+            .thickshort
+            {
+                border-color: #2C3E50;
+                background-color: #2C3E50;
+            }
+
+            .line 
+            {
+                height: 40px;
+            }
+            .page-scroll
+            {
+                background-color: #333333;
+            }
+
+            header {background-color: #F5F5F5;
+            		}
+            #about {background-color: #F5F5F5;}
+
+
     </style>
 
 </head>
@@ -127,9 +170,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class = main_img src = "img/profile.png" alt="">
+                    <img class = main_img src = "img/profile2.png" alt="">
                     <div class="intro-text">
+                    <div class="typewriter">
                         <span class="name"> Welcome To My Profile </span>
+                    </div>
                         <hr class="thickshort">
                         <div class = "section"> 
                                 <span class="skills"> Motivated - Ambitious - Boundless </span>
@@ -304,12 +349,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>A Little About Me</h2>
+                    <h2 class="darken">A Little About Me</h2>
                     <hr class = "thickshort">
                 </div>
             </div>
             <div class="row">
-                <div id = "aboutsection">
+                <div id = "aboutsection" class="darken">
                     <p> I am 20 years young and currently studying my third year in Computer Science at the University of Waterloo. From an early age I was extremely fascinated by computers, technology and software.  My father introduced me to man-machine interface software at his workplace and that's what first sparked my interest. Ever since, I knew my true calling. <br /> <br /> 
 
                     As I continue to develop my theoretical background, Computer Science has become a natural progression. As of now: C, C++, C#, Java, Python, JavaScript, Scheme are all weapons in my arsenal for building algorithms. Whether I am working on school assignments, or side-projects; I love getting my hands dirty and making things work, especially when it involves exploring new challenges. 
@@ -318,13 +363,13 @@
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class = "option"><a href="#contact" class="btn btn-lg btn-outline" >
+                    <div class = "option darken"><a href="#contact" class="btn btn-lg btn-outline darken" >
                          Resume
                     </a> </div>
-                    <div class = "option"><a href="https://ca.linkedin.com/in/shayon-banerjee-b61233b9" class="btn btn-lg btn-outline" class = "option">
+                    <div class = "option darken"><a href="https://ca.linkedin.com/in/shayon-banerjee-b61233b9" class="btn btn-lg btn-outline darken" class = "option">
                          LinkedIn
                     </a></div>
-                    <div class = "option"><a href="https://github.com/shaybanerjee" class="btn btn-lg btn-outline" class = "option">
+                    <div class = "option darken"><a href="https://github.com/shaybanerjee" class="btn btn-lg btn-outline darken" class = "option">
                          GitHub
                     </a></div>
                 </div>
